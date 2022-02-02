@@ -2,8 +2,7 @@
 Reference Article - https://www.mongodb.com/databases/data-lake-vs-data-warehouse-vs-database#:~:text=A%20database%20stores%20the%20current,to%20easily%20analyze%20the%20data.
 
 
-### 3 major cloud providers - Azure, AWS, GCP
-These cloud providers provide multiple service offering raning from compute, storage, databases, Network, Management tools, Analytics, Security, App Integration
+### Difference between a database, datawarehouse and a datalake
 
 | Topic | Database | Datawarehouse | Datalake|
 |-------|----------|----------|--------------|
@@ -12,6 +11,12 @@ These cloud providers provide multiple service offering raning from compute, sto
 | Examples | •	Relational databases: Oracle, MySQL, Microsoft SQL Server, and PostgreSQL •	Document databases: MongoDB and CouchDB •	Key-value databases: Redis and DynamoDB •	Wide-column stores: Cassandra and HBase •	Graph databases: Neo4j and Amazon Neptune | •	Amazon Redshift •	Google BigQuery •	IBM Db2 Warehouse •	Microsoft Azure Synapse •	Oracle Autonomous Data Warehouse •	Snowflake •	Teradata Vantage | The following are examples of technology that provide flexible and scalable storage for building data lakes:•	AWS S3 •	Azure Data Lake Storage Gen2 •	Google Cloud Storage Other technologies enable organizing and querying data in data lakes, including •	MongoDB Atlas Data Lake •	AWS Athena •	Presto •	Starburst •	Databricks SQL Analytics |
 | Who Uses It? | If your application needs to store data (and nearly every interactive application does), your application needs a database. | Data warehouses are a good option when you need to store large amounts of historical data and/or perform in-depth analysis of your data to generate business intelligence. Due to their highly structured nature, analyzing the data in data warehouses is relatively straightforward and can be performed by business analysts and data scientists. | The primary users of a data lake can vary based on the structure of the data. Business analysts will be able to gain insights when the data is more structured. When the data is more unstructured, data analysis will likely require the expertise of developers, data scientists, or data engineers. The flexible nature of data lakes enables business analysts and data scientists to look for unexpected patterns and insights. The raw nature of the data combined with its volume allows users to solve problems they may not have been aware of when they initially configured the data lake. | 
 | Type of Workload | Databases are typically accessed electronically and are used to support Online Transaction Processing (OLTP). | Both data warehouses and data lakes are meant to support Online Analytical Processing (OLAP). OLAP systems are typically used to collect data from a variety of sources. The data is then used to power a range of analytical use cases ranging from business intelligence and reporting (e.g., quarterly sales reports by store) to forecasting (e.g., predicting home sales for the next six months based on historical trends). |  Both data warehouses and data lakes are meant to support Online Analytical Processing (OLAP). OLAP systems are typically used to collect data from a variety of sources. The data is then used to power a range of analytical use cases ranging from business intelligence and reporting (e.g., quarterly sales reports by store) to forecasting (e.g., predicting home sales for the next six months based on historical trends). |
+
+
+
+### Is Hadoop a Datalake?
+
+To put it simply, Hadoop is a technology that can be used to build data lakes. A data lake is an architecture, while Hadoop is a component of that architecture. In other words, Hadoop is the platform for data lakes.
 
 
 
