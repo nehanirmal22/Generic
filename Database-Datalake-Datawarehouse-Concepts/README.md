@@ -1,6 +1,8 @@
 
 Reference Article - https://www.mongodb.com/databases/data-lake-vs-data-warehouse-vs-database#:~:text=A%20database%20stores%20the%20current,to%20easily%20analyze%20the%20data.
-3 major cloud providers - Azure, AWS, GCP
+
+
+### 3 major cloud providers - Azure, AWS, GCP
 These cloud providers provide multiple service offering raning from compute, storage, databases, Network, Management tools, Analytics, Security, App Integration
 
 | Topic | Database | Datawarehouse | Datalake|
